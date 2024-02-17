@@ -18,5 +18,14 @@ public class SalariedEmployee extends Employee{
         return WeeklySalary;
     }
 
+    /*@Override
+    public String toString() {
+        return "SalariedEmployee \n" +
+                "First Name    : " + getFirstName() + "\n" +
+                "Last Name     : " + getLastName() + "\n" +
+                "SSN           : " + getSSN() + "\n" +
+                "Weekly Salary : $" + this.WeeklySalary;
+    }*/
+
 
 }

@@ -27,15 +27,15 @@ public class Employee {
         this.SSN = SSN;
     }
 
-    public String getFirstName(String FirstName){
+    public String getFirstName(){
         return FirstName;
     }
 
-    public String getLastName(String LastName){
-        return FirstName;
+    public String getLastName(){
+        return LastName;
     }
 
-    public String getSSN(String SSN){
+    public String getSSN(){
         return SSN;
     }
 
