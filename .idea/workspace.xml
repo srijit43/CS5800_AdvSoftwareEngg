@@ -4,30 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c391876-e5ae-4d8b-89a9-70c2d127865f" name="Changes" comment="Q1models and driver">
-      <change afterPath="$PROJECT_DIR$/src/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEHw1q4/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEHw1q4/Folder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEHw1q4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq2/CargoShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq2/CruiseShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq2/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq3/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq3/CourseModified.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq3/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEhwq3/Textbook.java" afterDir="false" />
+    <list default="true" id="1c391876-e5ae-4d8b-89a9-70c2d127865f" name="Changes" comment="models and driver">
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/CarbFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/Dominos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/FatFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/LittleCaesars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/MacroNutrientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/MacronutrientMealFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/PizzaChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/PizzaChainType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/PizzaHut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/PizzaSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/PizzaTopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework2model/ProteinFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework_2driver/Question1Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SWE_homework_2driver/Question2driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommisionEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalariedEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -35,6 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +63,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/sriji/Java_dev/demo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707900712040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Q1models and driver">
+      <created>1708147552669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708147552669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
