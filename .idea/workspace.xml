@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c391876-e5ae-4d8b-89a9-70c2d127865f" name="Changes" comment="models and driver">
-      <change afterPath="$PROJECT_DIR$/src/SWE_Decorator_driver/RestaurantOrderSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE_homework5_decorator/model/Bacon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE_homework5_decorator/model/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE_homework5_decorator/model/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWE_homework5_decorator/model/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_driver/Question1Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/ChatHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/IterableByUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/MessageIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Python Script" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +46,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2cLa61SOX73kY141iOJpxmU832B" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710568958974</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="models and driver">
+      <created>1711742260205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711742260205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
