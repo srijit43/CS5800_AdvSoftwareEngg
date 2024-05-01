@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c391876-e5ae-4d8b-89a9-70c2d127865f" name="Changes" comment="models and driver">
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_driver/Question1Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/ChatHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/IterableByUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/MessageIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW6_Java_model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/SongProxyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/SongService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/SongServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_driver/Question1DriverPart1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_driver/Question1DriverPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_driver/Question2Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/CharacterText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/CharacterTextFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/DocumentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/FontColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/FontFamily.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Python Script" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -53,14 +59,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sriji/Java_dev/demo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/sriji/Java_dev/demo",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711742260205</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="models and driver">
+      <created>1713329851630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713329851630</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
