@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c391876-e5ae-4d8b-89a9-70c2d127865f" name="Changes" comment="models and driver">
-      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/SongProxyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/SongService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/H7_Java_model/q2/SongServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_driver/Question1DriverPart1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_driver/Question1DriverPart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_driver/Question2Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/CharacterText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/CharacterTextFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/DocumentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/FontColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW7_Java_model/q1/FontFamily.java" afterDir="false" />
+    <list default="true" id="1c391876-e5ae-4d8b-89a9-70c2d127865f" name="Changes" comment="models and driver for HW7">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_driver/Question1Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/StateOfVendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/handler/DispenserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/handler/IdleStateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/handler/PaymentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/handler/SnackDispenseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8_Java_model/handler/SnackSelectionhandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/sriji/Java_dev/demo",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
@@ -118,12 +116,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713329851630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="models and driver for HW7">
+      <created>1714538070545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714538070545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Q1models and driver" />
     <MESSAGE value="models and driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="models and driver" />
+    <MESSAGE value="models and driver for HW7" />
+    <option name="LAST_COMMIT_MESSAGE" value="models and driver for HW7" />
   </component>
 </project>
