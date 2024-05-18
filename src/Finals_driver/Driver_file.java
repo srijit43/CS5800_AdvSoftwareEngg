@@ -87,13 +87,13 @@ public class Driver_file {
 
         List<Driver> drivers = new ArrayList<>();
 
-        drivers.add(createDriver("Michael Johnson", "LA County", "111 Elm Street", LocalTime.of(8, 0), LocalTime.of(16, 0)));
+        drivers.add(createDriver("Michael Johnson", "LA County", "111 Elm Street", LocalTime.of(7, 0), LocalTime.of(20, 0)));
         drivers.add(createDriver("Sarah Williams", "Orange County", "222 Oak Avenue", LocalTime.of(16, 0), LocalTime.of(0, 0)));
         drivers.add(createDriver("David Smith", "San Bernardino County", "333 Pine Road", LocalTime.of(0, 0), LocalTime.of(8, 0)));
-        drivers.add(createDriver("Emma Brown", "LA County", "444 Maple Street", LocalTime.of(8, 0), LocalTime.of(16, 0)));
+        drivers.add(createDriver("Emma Brown", "LA County", "444 Maple Street", LocalTime.of(8, 0), LocalTime.of(20, 0)));
         drivers.add(createDriver("James Jones", "Orange County", "555 Birch Lane", LocalTime.of(16, 0), LocalTime.of(0, 0)));
         drivers.add(createDriver("Olivia Davis", "San Bernardino County", "666 Cedar Boulevard", LocalTime.of(0, 0), LocalTime.of(8, 0)));
-        drivers.add(createDriver("William Garcia", "LA County", "777 Walnut Drive", LocalTime.of(8, 0), LocalTime.of(16, 0)));
+        drivers.add(createDriver("William Garcia", "LA County", "777 Walnut Drive", LocalTime.of(8, 0), LocalTime.of(20, 0)));
         drivers.add(createDriver("Sophia Martinez", "Orange County", "888 Chestnut Avenue", LocalTime.of(16, 0), LocalTime.of(0, 0)));
 
 
@@ -139,35 +139,9 @@ public class Driver_file {
         return driver;
     }
 
-    private void setEndShift(LocalTime endShift) {
-    }
-
-    private void setStartShift(LocalTime startShift) {
-    }
-
-    private void setAddress(String address) {
-    }
-
-    private void setCounty(String county) {
-    }
-
-    private void setName(String name) {
-    }
-
     public static LocalDateTime getTime() {
-        LocalTime startTime = LocalTime.of(10, 0);
-        LocalTime endTime = LocalTime.of(22, 0);
-
-        // Get the current date
-        LocalDate currentDate = LocalDate.now();
-
-        // Combine the date with the two LocalTime instances to create LocalDateTime instances
-        LocalDateTime startDateTime = LocalDateTime.of(currentDate, startTime);
-        LocalDateTime endDateTime = LocalDateTime.of(currentDate, endTime);
-
         // Example LocalDateTime to check
-        LocalDateTime dateTimeToCheck = LocalDateTime.of(currentDate, LocalTime.of(15, 30));
-
+        LocalDateTime dateTimeToCheck = LocalDateTime.of(LocalDate.now(), LocalTime.of(15, 30));
         return dateTimeToCheck;
     }
 }

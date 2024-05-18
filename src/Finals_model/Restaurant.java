@@ -1,7 +1,6 @@
 package Finals_model;
 
 import java.time.LocalTime;
-import java.time.chrono.ChronoLocalDateTime;
 import java.util.List;
 
 // Observer Pattern
@@ -84,7 +83,7 @@ public class Restaurant implements Publisher {
                     // restaurant matched
                     // make sure its operating hours
                     if (order.getOrderPlacedAt().toLocalTime().isAfter(this.openTime)
-                            && order.getOrderPlacedAt().toLocalTime().isBefore(this.openTime)) {
+                            && order.getOrderPlacedAt().toLocalTime().isBefore(this.closeTime)) {
                         // cook the food
                         try  {
                             // delay in cooking

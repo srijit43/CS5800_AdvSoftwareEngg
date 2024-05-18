@@ -1,6 +1,5 @@
 package Finals_model;
 
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,11 +34,17 @@ public class CPPFoodDelivery implements Subscriber  {
         // check for drivers in the county of the user
         Optional<Driver> selectedDriver = drivers.stream()
                 .filter(driver -> driver.getCounty().contains(order.getCustomer().getCounty()))
-                .filter(driver -> driver.getStartShift()
-                        .isAfter(order.getOrderPlacedAt().toLocalTime())
-                        &&
-                        driver.getStartShift()
-                                .isBefore(order.getOrderPlacedAt().toLocalTime())
+                .filter(driver ->
+                        (
+                                driver.getStartShift()
+                                        .isAfter(order.getOrderPlacedAt().toLocalTime())
+                                        ||
+                                        driver.getStartShift()
+                                                .isBefore(order.getOrderPlacedAt().toLocalTime())
+                        )
+                                &&
+                                driver.getEndShift()
+                                        .isAfter(order.getOrderPlacedAt().toLocalTime())
                 )
                 .findFirst();
 
